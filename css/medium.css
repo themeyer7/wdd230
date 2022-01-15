@@ -1,5 +1,13 @@
 @media only screen and (min-width:32.5em) {
   .profile {
     float: right;
-  }  
+  } 
+
+  h1 {
+    font-size: 3.0rem;
+  }
+
+  h2 {
+    border-bottom: 2px solid #bbb;
+  }
 }
