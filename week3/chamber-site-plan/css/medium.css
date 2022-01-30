@@ -1,0 +1,37 @@
+/* MEDIA QUERY - MEDIUM */
+@media only screen and (min-width: 550px) {
+
+  header, nav, main, footer {
+    max-width: 64rem;
+    margin:auto;
+  }
+
+  /* BODY */
+    
+  /* HEADER */
+  header img {
+    height: 70px;
+    width: auto;
+    margin: 0;
+    
+  }
+  
+  /* NAVIGATION */
+      nav ul {margin-left: 2%;}
+      nav ul li {float: left;}
+  
+      nav ul li a{padding: .5rem 1rem;}
+    
+  /* MAIN */
+  .sparrow img, .sparky img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .sparrow h3, .sparky h3 {
+    text-align: center;
+  }
+
+  /* FOOTER */
+
+} /* end MEDIA QUERY */
